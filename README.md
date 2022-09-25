@@ -1,2 +1,2 @@
-# TTSMachine
+# InstantTTS
 A Text to speech machine that also utilizes special commands
