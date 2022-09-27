@@ -35,5 +35,5 @@ In order to install the dependencies.
 `pip install -r requirements.txt` <br>
 This will install the dependencies on your computer.
 4. Finally, execute it via the command: <br>
-`python main.py`
+`python main.py`<br>
 *Voila!* It's finally running on your computer!
