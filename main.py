@@ -6,9 +6,9 @@ voice.setProperty('rate', 145) # Just put it a little slow for proper understand
 
 while True:
 	quote = input("Enter something to say: ")
-	if quote.startswith("*cal"): # This is where the "*cal" special command is detected
-		words = quote.split("*cal", 1) # The user string is split into two parts
-		answer = eval(words[1]) # It processes and calculates the second part
+	if quote.startswith("*cal"):  # This is where the "*cal" special command is detected
+		words = quote.split("*cal", 1)  # The user string is split into two parts
+		answer = eval(words[1])  # It processes and calculates the second part
 		print(answer)
 		voice.say(answer)
 	else:
