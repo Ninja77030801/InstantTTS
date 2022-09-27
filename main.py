@@ -14,7 +14,7 @@ while True:
 	else:
 		voice.say(quote)
 	voice.runAndWait()
-	if(os.name == "nt"):
+	if os.name == "nt":
 		os.system("cls")
-	elif(os.name == "posix"):
+	elif os.name == "posix":
 		os.system("clear")
