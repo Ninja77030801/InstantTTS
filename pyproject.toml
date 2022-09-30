@@ -4,6 +4,9 @@ version = "1.0.0"
 description = "A Text To Speech Program written in python which also utilizes special commands beginning with \"*\"."
 authors = ["Ninja77030 <n77030@outlook.com>"]
 readme = "README.md"
+packages = [
+ {include "src"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
